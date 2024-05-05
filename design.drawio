@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2024-05-05T12:27:54.900Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4MNM_wanDltID6Cn52aG" version="24.3.1" type="device">
+  <diagram name="Page-1" id="bE9XkYHOAtZ6_38pKiaa">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g4OMLPBO_-WumBKWhZZK-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;user query + user chat history from application server&lt;/font&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="770" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qEVoze25_uoXiGSzK0u-1" target="-qEVoze25_uoXiGSzK0u-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-19" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;relevant medical docs&lt;br&gt;(optional)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qEVoze25_uoXiGSzK0u-3">
+          <mxGeometry x="0.0491" y="-3" relative="1" as="geometry">
+            <mxPoint x="-12" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Is RAG needed to answer the query?&lt;/font&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Scalable LLM backend&lt;/font&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-5" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Generate response with or w/o RAG context&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="295" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="120" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="120" />
+              <mxPoint x="370" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-13" value="&lt;span style=&quot;font-size: 18px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;user query + user chat history&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qEVoze25_uoXiGSzK0u-7">
+          <mxGeometry x="-0.2672" y="-1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.7;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.264;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-qEVoze25_uoXiGSzK0u-2" target="-qEVoze25_uoXiGSzK0u-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="306" y="580" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.135;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="-qEVoze25_uoXiGSzK0u-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="621" y="580" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.882;exitY=1.044;exitDx=0;exitDy=0;entryX=0.561;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.1099999999999" y="126.92000000000003" as="sourcePoint" />
+            <mxPoint x="650.0000000000002" y="289.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-18" value="&lt;span style=&quot;font-size: 18px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;user query + user chat history&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qEVoze25_uoXiGSzK0u-17">
+          <mxGeometry x="-0.0819" y="-1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Vector DB&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-23" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-qEVoze25_uoXiGSzK0u-22" target="-qEVoze25_uoXiGSzK0u-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="sourcePoint" />
+            <mxPoint x="180" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Query embeddings&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qEVoze25_uoXiGSzK0u-23">
+          <mxGeometry y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.895;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="g4OMLPBO_-WumBKWhZZK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="290" as="sourcePoint" />
+            <mxPoint x="780" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Final Response&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qEVoze25_uoXiGSzK0u-25">
+          <mxGeometry x="0.0181" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-qEVoze25_uoXiGSzK0u-28" target="-qEVoze25_uoXiGSzK0u-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;create and store embedding&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Medical pdf/text sources&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-qEVoze25_uoXiGSzK0u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.393;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-qEVoze25_uoXiGSzK0u-29" target="-qEVoze25_uoXiGSzK0u-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
